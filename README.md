@@ -62,7 +62,11 @@ cp /usr/share/locale/en@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 ## 23 - grub-mkconfig -o /boot/grub/grub.cfg
 ## 24 - remove disk
 ---------
-25 - pacman -S xorg-server
+## 25 - pacman -S xorg-server
+
+
 for VIRTUALBOX
 pacman -S virtualbox-guest-utils virtualbox-guest-modules-arch mesa mesa-libgl
-26 - pacaman -S gnome gnome-extra
+
+
+## 26 - pacaman -S gnome gnome-extra
